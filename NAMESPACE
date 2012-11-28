@@ -1,0 +1,30 @@
+export(select.h0, plmm, wplmm, var.plot, plmm.bs)
+importFrom(nlme, ranef)
+S3method(ranef, plmm)
+S3method(ranef, wplmm)
+
+S3method(print, plmm)
+S3method(print, wplmm)
+S3method(print, bs.plmm)
+S3method(print, summary.plmm)
+S3method(print, summary.wplmm)
+S3method(print, summary.bs.plmm)
+
+S3method(summary, plmm)
+S3method(summary, wplmm)
+S3method(summary, bs.plmm)
+
+S3method(coef, plmm)
+S3method(coef, wplmm)
+
+S3method(fitted, plmm)
+S3method(fitted, wplmm)
+
+S3method(residuals, plmm)
+S3method(residuals, wplmm)
+
+S3method(predict, plmm)
+S3method(predict, wplmm)
+
+S3method(plot, plmm)
+S3method(plot, wplmm)
